@@ -32,6 +32,6 @@ lib/
 
 ### Installation
 ```sh
-git clone https://github.com/Chinmaya007/abhyaasiit.git
+git clone https://github.com/Chinmaya0007/abhyaasiit
 cd abhyaasiit
 flutter pub get
