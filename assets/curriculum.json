@@ -1,0 +1,74 @@
+{
+  "boards": ["CBSE", "ICSE", "State"],
+  "classes": [8, 9, 10, 11, 12],
+  "streams": ["Science", "Commerce", "Arts"],
+  "subjects": [
+    { "id": "math", "name": "Mathematics" },
+    { "id": "sci", "name": "Science" },
+    { "id": "eng", "name": "English" }
+  ],
+  "topics": [
+    { "id": "t1", "subjectId": "math", "title": "Calculus", "description": "Intro to Calculus" },
+    { "id": "t2", "subjectId": "math", "title": "Algebra", "description": "Equations and formulas" },
+    { "id": "t3", "subjectId": "sci", "title": "Photosynthesis", "description": "Process in plants" },
+    { "id": "t4", "subjectId": "sci", "title": "Electricity", "description": "Basics of current and voltage" },
+    { "id": "t5", "subjectId": "eng", "title": "Grammar", "description": "Basic parts of speech" },
+    { "id": "t6", "subjectId": "eng", "title": "Comprehension", "description": "Reading and understanding texts" }
+  ],
+  "questions": [
+    {
+      "topicId": "t1",
+      "items": [
+        "Differentiation Basics",
+        "Product rule and quotient rule",
+        "Applications of derivatives",
+        "Continuity and limits"
+      ]
+    },
+    {
+      "topicId": "t2",
+      "items": [
+        "Linear equations",
+        "Quadratic equations",
+        "Factorization",
+        "Polynomials"
+      ]
+    },
+    {
+      "topicId": "t3",
+      "items": [
+        "What is Photosynthesis?",
+        "Light Reaction",
+        "Dark Reaction",
+        "Importance in plants"
+      ]
+    },
+    {
+      "topicId": "t4",
+      "items": [
+        "Ohm's Law",
+        "Current and Voltage basics",
+        "Resistance and Power",
+        "Electric circuits"
+      ]
+    },
+    {
+      "topicId": "t5",
+      "items": [
+        "Nouns and Pronouns",
+        "Verbs and Tenses",
+        "Adjectives and Adverbs",
+        "Sentence Formation"
+      ]
+    },
+    {
+      "topicId": "t6",
+      "items": [
+        "Reading comprehension passage 1",
+        "Passage 2 with questions",
+        "Short story comprehension",
+        "Poem comprehension"
+      ]
+    }
+  ]
+}
