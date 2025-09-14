@@ -40,7 +40,7 @@ class MainNavBar extends StatefulWidget {
 }
 
 class _MainNavBarState extends State<MainNavBar> {
-  int _currentIndex = 0;
+  int _currentIndex = 3;
 
   late final List<Widget> _pages = [
     const ProfilePage(),
